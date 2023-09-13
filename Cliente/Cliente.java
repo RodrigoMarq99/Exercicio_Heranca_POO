@@ -11,13 +11,13 @@ public class Cliente {
 	// métodos acessores da classe Cliente
 
 	public Cliente(String nome, String sexo, int idade, String tipoDeConta, float saldo) {
-	    this.nome = nome;
-	    this.sexo = sexo;
-	    this.idade = idade;
-	    this.tipoDeConta = tipoDeConta;
-	    this.saldo = saldo;
+		this.nome = nome;
+		this.sexo = sexo;
+		this.idade = idade;
+		this.tipoDeConta = tipoDeConta;
+		this.saldo = saldo;
 	}
-	
+
 	public String getNome() {
 		return nome;
 	}
@@ -65,7 +65,6 @@ public class Cliente {
 		System.out.println("Idade: " + idade);
 		System.out.println("Tipo da conta: " + tipoDeConta);
 		System.out.println("Saldo: R$" + saldo);
-
 	}
 
 }
