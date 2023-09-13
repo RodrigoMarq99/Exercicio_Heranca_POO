@@ -13,6 +13,7 @@ public static void main(String[] args) {
 		empresa.visualizar();
 		pessoa2.visualizar();
 		empresa2.visualizar();
-		
+	
 	}
+
 }
